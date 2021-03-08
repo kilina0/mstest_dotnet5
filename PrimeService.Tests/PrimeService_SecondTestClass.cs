@@ -10,6 +10,7 @@ namespace Prime.UnitTests.Services
         [Fact]
         [TestCategory("Second category")]
         [TestCategory("First category")]
+        [TestCategory("Simple")]
         public void PassingTest()
         {
             Assert.Equal(4, Decimal.Add(2, 2));
