@@ -60,6 +60,7 @@ namespace Prime.UnitTests.Services
         }
 
         [TestMethod]
+        [TestCategory("Simple")]
         public void ReturnFalseGivenValueOf2()
         {
             Console.WriteLine("some stdOut text");
