@@ -46,6 +46,8 @@ namespace Prime.UnitTests.Services
 
         [TestMethod]
         [TestCategory("First category")]
+        [TestCategory("Simple")]
+        [Priority(2)]
         public void ReturnFalseGivenValueOf3()
         {            
             Console.WriteLine("some stdOut text");
