@@ -1,4 +1,5 @@
 using System;
+using System.ComponentModel;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 using Prime.Services;
 
@@ -17,6 +18,7 @@ namespace Prime.UnitTests.Services
         public TestContext TestContext { get; set; }
 
         [TestMethod]
+        [TestCategory("First category")]
         public void ReturnFalseGivenValueOf1()
         {
             Console.WriteLine("some stdOut text");
@@ -29,6 +31,7 @@ namespace Prime.UnitTests.Services
         }
 
         [TestMethod]
+        [TestCategory("First category")]
         [Ignore]
         public void IgnoredTest()
         {
@@ -42,6 +45,7 @@ namespace Prime.UnitTests.Services
         }
 
         [TestMethod]
+        [TestCategory("First category")]
         public void ReturnFalseGivenValueOf3()
         {            
             Console.WriteLine("some stdOut text");
