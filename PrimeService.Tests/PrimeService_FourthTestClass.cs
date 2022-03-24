@@ -3,6 +3,7 @@ using Microsoft.VisualStudio.TestTools.UnitTesting;
 using Xunit;
 using Assert = Xunit.Assert;
 
+namespace Prime.UnitTests.Services {
     public class PrimeService_FourthTestClass
     {
         [Fact]
@@ -20,3 +21,5 @@ using Assert = Xunit.Assert;
         }
         
     }
+
+}
