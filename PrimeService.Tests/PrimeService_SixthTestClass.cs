@@ -18,6 +18,7 @@ namespace Prime.UnitTests.Services
         }
 
         [Fact]
+        [Priority(2)]
         public void FailingTest()
         {
             Assert.Equal(5, Decimal.Add(2, 2));
