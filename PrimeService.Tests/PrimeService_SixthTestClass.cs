@@ -8,7 +8,7 @@ namespace Prime.UnitTests.Services
     {
         [TestCategory("Second category")]
         [TestCategory("First category")]
-        [TestCategory("Simple")]
+        [TestCategory("SimpleSimple")]
         [TestMethod]
         public void PassingTest()
         {
