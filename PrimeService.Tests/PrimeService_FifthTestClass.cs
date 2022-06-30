@@ -12,6 +12,7 @@ namespace Prime.UnitTests.Services
         [TestMethod]
         public void PassingTest()
         {
+            Console.WriteLine("😆😦");
             Assert.Equals(4, Decimal.Add(2, 2));
         }
 
