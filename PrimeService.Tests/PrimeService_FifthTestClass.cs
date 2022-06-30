@@ -12,13 +12,20 @@ namespace Prime.UnitTests.Services
         [TestMethod]
         public void PassingTest()
         {
-            Console.WriteLine("😆😦");
+            Console.WriteLine("текст😆😦");
+            Console.WriteLine("текст😆😦");
+            Console.WriteLine("текст");
+            Console.WriteLine("текст😆😦");
             Assert.Equals(4, Decimal.Add(2, 2));
         }
 
         [TestMethod]
         public void FailingTest()
         {
+            Console.WriteLine("текст😆😦");
+            Console.WriteLine("текст😆😦");
+            Console.WriteLine("текст");
+            Console.WriteLine("текст😆😦");
             Assert.Equals(5, Decimal.Add(2, 2));
         }
 
