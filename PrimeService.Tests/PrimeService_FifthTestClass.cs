@@ -27,12 +27,9 @@ namespace Prime.UnitTests.Services
         {
             Console.WriteLine("текст😆😦");
             Console.WriteLine("текст😆😦");
-            Console.WriteLine("[runtime] 2022-06-30 08:17:37 [verbose]: 📺 ScreenTestScene(OsuScreenStack)#296(depth:1) loading TestMultiplayerComponents#150
-");
-            Console.WriteLine("[runtime] 2022-06-30 08:17:37 [verbose]: 📺 ScreenTestScene(OsuScreenStack)#296(depth:1) loading TestMultiplayerComponents#150
-");
-            Console.WriteLine("[runtime] 2022-06-30 08:17:37 [verbose]: 📺 ScreenTestScene(OsuScreenStack)#296(depth:1) loading TestMultiplayerComponents#150
-");
+            Console.WriteLine("[runtime] 2022-06-30 08:17:37 [verbose]: 📺 ScreenTestScene(OsuScreenStack)#296(depth:1) loading TestMultiplayerComponents#150");
+            Console.WriteLine("[runtime] 2022-06-30 08:17:37 [verbose]: 📺 ScreenTestScene(OsuScreenStack)#296(depth:1) loading TestMultiplayerComponents#150");
+            Console.WriteLine("[runtime] 2022-06-30 08:17:37 [verbose]: 📺 ScreenTestScene(OsuScreenStack)#296(depth:1) loading TestMultiplayerComponents#150");
 
             Console.WriteLine("текст");
             Console.WriteLine("текст😆😦");
