@@ -6,9 +6,7 @@ namespace Prime.UnitTests.Services
     [TestClass]
     public class PrimeService_FifthTestClass
     {
-        [TestCategory("Second category")]
-        [TestCategory("First category")]
-        [TestCategory("Simple")]
+        [TestCategory("FifthCategory")]
         [TestMethod]
         public void PassingTest()
         {
