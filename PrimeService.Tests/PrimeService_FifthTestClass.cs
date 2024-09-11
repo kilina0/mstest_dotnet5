@@ -20,6 +20,7 @@ namespace Prime.UnitTests.Services
             Assert.Equals(4, Decimal.Add(2, 2));
         }
 
+        [TestCategory("FifthCategory")]
         [TestMethod]
         public void FailingTest()
         {
