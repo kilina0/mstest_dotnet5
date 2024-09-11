@@ -1,5 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <RunSettings>
-  <!-- configuration elements -->
-      <TestCaseFilter>TestCategory!=FifthCategory</TestCaseFilter>
+  <RunConfiguration>
+    <!-- Exclude tests with "FifthCategory" -->
+    <TestCaseFilter>TestCategory!=FifthCategory</TestCaseFilter>
+  </RunConfiguration>
 </RunSettings>
