@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
 <RunSettings>
   <!-- configuration elements -->
-      <TestCaseFilter>(TestCategory == FifthCategory)</TestCaseFilter>
+      <TestCaseFilter>TestCategory!=FifthCategory</TestCaseFilter>
 </RunSettings>
